@@ -1,15 +1,13 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
-import Counter from '~/components/starter/counter/counter';
-import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
 import Starter from '~/components/starter/next-steps/next-steps';
 
 export default component$(() => {
   return (
     <>
-      <Hero />
+      {/*<Hero />*/}
       <Starter />
 
       <div role="presentation" class="ellipsis"></div>
@@ -20,7 +18,7 @@ export default component$(() => {
           You can <span class="highlight">count</span>
           <br /> on me
         </h3>
-        <Counter />
+        {/*<Counter />*/}
       </div>
 
       <div class="container container-flex">
