@@ -14,16 +14,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
-  --qwik-dark-text: #ffffff;
-}
+$primary-color-sand: #be9e92;
+$primary-color-grey: #bfc5be;
+$primary-color-light: #fcfef7;
 
 html {
   line-height: 1;
@@ -37,9 +30,18 @@ html {
 }
 
 body {
+  background: $primary-color-sand;
   padding: 0;
   margin: 0;
   line-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.global-color-grey {
+  background-color: $primary-color-grey;
 }
 
 /**
