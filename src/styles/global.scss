@@ -13,10 +13,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-$primary-color-sand: #be9e92;
-$primary-color-grey: #bfc5be;
-$primary-color-light: #fcfef7;
+@import 'variables.scss';
 
 html {
   line-height: 1;
