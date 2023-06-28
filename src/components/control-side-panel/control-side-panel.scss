@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+aside {
+  width: 300px;
+  background-color: $primary-color-grey;
+
+  li {
+    &:hover {
+      background-color: $primary-text-dark;
+      color: $primary-text-color;
+    }
+  }
+}
