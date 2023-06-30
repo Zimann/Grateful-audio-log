@@ -2,10 +2,9 @@ import { component$, Slot, useStyles$ } from '@builder.io/qwik';
 import { routeLoader$ } from '@builder.io/qwik-city';
 import type { RequestHandler } from '@builder.io/qwik-city';
 
-import Header from '~/components/header/header';
-import Footer from '~/components/footer/footer';
-
 import styles from '../styles.css?inline';
+import { ControlSidePanel } from "~/components/control-side-panel/control-side-panel";
+import Header from "~/components/header/header";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
   // Control caching for this request for best performance and to reduce hosting costs:
@@ -29,12 +28,12 @@ export default component$(() => {
   useStyles$(styles);
   return (
     <>
-      <Header />
-      <main class="w-full">
-        {/*Content projection from index.tsx*/}
+      <main class="w-full flex">
+        <ControlSidePanel></ControlSidePanel>
+        <Header/>
+        {/*Route content goes into this slot*/}
         <Slot />
       </main>
-      <Footer />
     </>
   );
 });

@@ -1,21 +1,21 @@
-import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
-import { ControlSidePanel } from "~/components/control-side-panel/control-side-panel";
+import { component$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
+import MainContainer from "~/components/main-container";
 
 export default component$(() => {
   return (
     <>
-      <ControlSidePanel></ControlSidePanel>
+      <MainContainer />
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Grateful Audio Log',
+  title: "Grateful Audio Log",
   meta: [
     {
-      name: 'description',
-      content: 'Audio Log Web app',
-    },
-  ],
+      name: "description",
+      content: "Audio Log Web app"
+    }
+  ]
 };

@@ -1,9 +1,11 @@
-import { component$ } from '@builder.io/qwik';
-import styles from './header.module.scss';
+import { component$, useStylesScoped$ } from "@builder.io/qwik";
+import styles from './header.scss?inline';
 
 export default component$(() => {
+  useStylesScoped$(styles);
   return (
-    <header class={styles.header}>
+    <header class="w-full flex items-center justify-center">
+      <p>Action Area</p>
     </header>
   );
 });
