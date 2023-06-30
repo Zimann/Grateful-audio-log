@@ -4,7 +4,7 @@ import MainContainer from "~/components/main-container/main-container";
 export default component$(() => {
   return (
     <MainContainer>
-      <p>Notification setup</p>
+      <p>Log Archive</p>
     </MainContainer>
   );
 });

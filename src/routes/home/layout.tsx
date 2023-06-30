@@ -28,11 +28,11 @@ export default component$(() => {
   useStyles$(styles);
   return (
     <>
-      <main class="w-full flex">
-        <ControlSidePanel></ControlSidePanel>
-        <Header/>
-        {/*Route content goes into this slot*/}
-        <Slot />
+      <ControlSidePanel></ControlSidePanel>
+      <main class="flex-wrap w-full">
+          <Header/>
+          {/*Route content goes into this slot*/}
+          <Slot />
       </main>
     </>
   );

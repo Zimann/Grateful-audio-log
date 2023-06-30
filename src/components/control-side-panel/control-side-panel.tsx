@@ -14,14 +14,14 @@ export const ControlSidePanel = component$(() => {
   const navigate = useNavigate();
   const listItems: ListItem[] = [
     {
-      title: 'Record Memo',
+      title: 'Record Log',
       id: 0,
       route: '/record-log'
     },
     {
-      title: 'Memo Archive',
+      title: 'Log Archive',
       id: 1,
-      route: '/memo-archive'
+      route: '/log-archive'
     },
     {
       title: 'Notification Setup',
