@@ -2,10 +2,11 @@
 
 button {
   @include generalTransition;
-  color: $primary-text-color;
+  color: $primary-text-dark;
+  border: 1px solid $primary-text-dark;
 
   &:hover {
-    color: $primary-color-grey;
-    background-color: $primary-text-color;
+    color: $primary-color-sand;
+    background-color: $primary-text-dark;
   }
 }

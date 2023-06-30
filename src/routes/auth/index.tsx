@@ -15,7 +15,7 @@ export default component$(() => {
     <>
       <main class="h-screen w-full justify-center items-center flex flex-col">
         <div
-          class="w-64 flex border-2 border-solid border-white rounded-2xl items-center justify-center global-color-grey h-80">
+          class="w-64 flex border-2 border-solid border-black rounded-2xl items-center justify-center global-color-grey h-80">
           {/*// TODO create actual login logic - use Google Login API*/}
           <button onClick$={logUser} class="p-4 border-2 border-solid border-white rounded-2xl">Log In</button>
         </div>
