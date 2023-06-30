@@ -11,11 +11,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Grateful Audio Log',
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: 'Audio Log Web app',
     },
   ],
 };

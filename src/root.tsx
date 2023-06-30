@@ -18,7 +18,7 @@ export default component$(() => {
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
-        <title>Qwik App</title>
+        <title>Grateful Log App</title>
       </head>
       <body lang="en">
         <RouterOutlet />

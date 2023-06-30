@@ -1,5 +1,5 @@
 {
-  "name": "Grateful audio log",
+  "name": "grateful-audio-log",
   "description": "Daily Audio Log aggregator",
   "engines": {
     "node": ">=15.0.0"
