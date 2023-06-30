@@ -1,0 +1,33 @@
+@import './src/styles/variables.scss';
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 30px;
+  background-color: $primary-color-grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid $primary-text-dark;
+  @include generalTransition;
+
+  &:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent $primary-text-dark;
+    transform: translateX(4px);
+  }
+
+  &:hover {
+    background-color: $primary-text-dark;
+
+    &:before {
+      border-color: transparent transparent transparent $primary-color-sand;
+    }
+  }
+}
