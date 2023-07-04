@@ -13,21 +13,15 @@ button {
   border: 1px solid $primary-text-dark;
   @include generalTransition;
 
-  &:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 20px;
-    border-color: transparent transparent transparent $primary-text-dark;
-    transform: translateX(4px);
+  i {
+    font-size: 20px;
   }
 
   &:hover {
     background-color: $primary-text-dark;
 
-    &:before {
-      border-color: transparent transparent transparent $primary-color-sand;
+    i {
+      color: $primary-color-sand;
     }
   }
 }

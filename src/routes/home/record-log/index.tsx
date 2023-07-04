@@ -7,7 +7,9 @@ export default component$(() => {
 
   return (
     <MainContainer>
-      <button class="mb-3" aria-description="Record Log button"></button>
+      <button class="mb-3" aria-description="Record Log button">
+        <i class="hover:cursor-pointer fa fa-microphone"></i>
+      </button>
       <span>Record Log</span>
     </MainContainer>
   )
