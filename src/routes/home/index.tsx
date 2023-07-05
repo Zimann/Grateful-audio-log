@@ -5,6 +5,7 @@ import MainContainer from "~/components/main-container/main-container";
 export default component$(() => {
   return (
     <>
+      {/*TODO fill this with content on how to use the web page - create a  grid layout to fill the container*/}
       <MainContainer />
     </>
   );
