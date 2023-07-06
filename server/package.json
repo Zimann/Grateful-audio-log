@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "start:server": "nodemon graphql/server.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
