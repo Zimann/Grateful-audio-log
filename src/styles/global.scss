@@ -32,6 +32,23 @@ body {
   line-height: inherit;
   display: flex;
   color: $primary-text-dark;
+  overflow-x: hidden;
+}
+
+hr {
+  background-color: $primary-color-grey;
+  height: 5px;
+  border-color: $primary-color-grey ;
+  border-radius: 5px;
+}
+
+
+/* HEADINGS ------------------------------------- */
+h1,
+h2,
+h3 {
+  font-size: 1.5rem;
+  /*margin: 0;*/
 }
 
 .global-color-grey {
