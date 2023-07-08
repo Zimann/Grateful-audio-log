@@ -5,10 +5,12 @@ export const GET_INTRO = gql`
       homeIntro {
           headline
           descriptions {
+              id
               title
-              imageUrl
               functionality
               icon
+              action,
+              route
           }
       }
   }

@@ -5,9 +5,11 @@ export type HomeData = {
   }
 }
 
-type HomeDescription = {
+export type HomeDescription = {
+  id: number;
   title: string;
-  imageUrl: string;
   functionality: string;
-  icon: string
+  icon: string,
+  action: string,
+  route: string
 }

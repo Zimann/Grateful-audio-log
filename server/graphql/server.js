@@ -15,10 +15,12 @@ const typeDefs = `#graphql
       descriptions:[HomeDescription]
   }
   type HomeDescription {
+      id: ID
       title: String
-      imageUrl: String
       functionality: String
       icon: String
+      action: String
+      route: String
   }
 `;
 
