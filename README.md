@@ -13,8 +13,8 @@ It includes notifications with nudges to record a voice memo in a day but to als
 - Ability to set notifications in a time window (ex: once every 3 months) to hear your past recordings
 - Ability to set notifications to prompt you to create a daily recording 
 - You'll be able to also have a record collection of your past memos
-- You'll can edit a recording provided that the editing is done in the same day
-- You'll can delete past records
+- You'll be able to edit a recording provided that the editing is done in the same day
+- You'll be able to delete past records
 - You'll be able to upload a photo along next to the recording - the photo upload will be optional
 
 > As far authentication goes, this will be done for the beginning just with a `Google account`. 
