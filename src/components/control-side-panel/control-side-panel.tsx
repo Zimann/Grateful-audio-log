@@ -32,11 +32,15 @@ export const ControlSidePanel = component$(() => {
 
   const navigateAction = $((listItem: ListItem) => {
       navigate(`${Routes.HOME_ROUTE}${listItem.route}`);
-  })
+  });
+
+  const navigateHome = $(() => {
+    navigate(Routes.HOME_ROUTE);
+  });
 
   return (
     <aside class="h-screen">
-      <img src="/assets/logo.png" alt="logo image" />
+      <img onClick$={navigateHome} class="cursor-pointer" src="/assets/logo.png" alt="logo image" />
       <ul class="pt-5">
         {listItems.map(item => (
           <li
