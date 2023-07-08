@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.col-content {
+  height: 270px;
+  position: relative;
+
+  button {
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: $primary-color-grey;
+    @include generalTransition;
+
+    &:hover {
+      background-color: $primary-text-dark;
+      color: $primary-color-grey;
+    }
+  }
+}
